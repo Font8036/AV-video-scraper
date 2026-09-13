@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "av-scraper"
+version = "2.0.0"
+description = "文件名刮削与文件整理工具"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pyinstaller>=6.0"]
+
+[project.gui-scripts]
+av-scraper = "av_scraper.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["av_scraper*"]
