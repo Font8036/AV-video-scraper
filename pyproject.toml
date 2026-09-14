@@ -3,8 +3,8 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "av-scraper"
-version = "2.0.0"
+name = "JAVscraper"
+version = "0.1.1"
 description = "文件名刮削与文件整理工具"
 readme = "README.md"
 requires-python = ">=3.9"

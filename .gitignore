@@ -8,3 +8,4 @@ venv/
 config.json
 log/
 .vscode/
+*.spec
