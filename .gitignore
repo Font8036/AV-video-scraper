@@ -7,3 +7,4 @@ dist/
 venv/
 config.json
 log/
+.vscode/

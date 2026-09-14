@@ -55,7 +55,7 @@ def save_text_report(results: list[ScrapeResult], path: Path) -> None:
         "-" * 50,
     ]
     for r in results:
-        icon = "✓" if r.is_extracted else "○"
+        icon = "✓" if r.is_extracted else "✗"
         lines.append(f"{icon} {r.filename} -> {r.extracted_code}")
 
     path.write_text("\n".join(lines), encoding="utf-8")
